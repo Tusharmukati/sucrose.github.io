@@ -1,18 +1,18 @@
 @keyframes rotation360 {
   0% {
-    background-image: url(/images/ganyu.jpg);
+    background-image: url(/sucrose.github.io/ganyu.jpg);
   }
   25% {
-    background-image: url(/images/kazuha.jpg);
+    background-image: url(/sucrose.github.io/kazuha.jpg);
     border: 12px dashed yellow;
   }
   50% {
-    background-image: url(/images/raidon.jpg);
+    background-image: url(/sucrose.github.io/raidon.jpg);
     border: 14px double orange;
   }
   75% {
     transform: scale(1.75, 1.75) rotate(360deg);
-    background-image: url(/images/ayaka.jpg);
+    background-image: url(/sucrose.github.io/ayaka.jpg);
     border: 16px double green;
   }
   95% {
@@ -31,26 +31,26 @@
 }
 @keyframes animation_father {
   0% {
-    background-image: url(/images/venti.jpg);
+    background-image: url(/sucrose.github.io/venti.jpg);
   }
   25% {
-    background-image: url(/images/hutao.jpg);
+    background-image: url(/sucrose.github.io/hutao.jpg);
   }
   50% {
-    background-image: url(/images/ganyu.jpg);
+    background-image: url(/sucrose.github.io/ganyu.jpg);
     transform: translate(25vw, -25vh) rotate(360deg) scale(1.75, 1.75);
   }
   75% {
-    background-image: url(/images/xiao2.jpg);
+    background-image: url(/sucrose.github.io/xiao2.jpg);
     transform: translate(-40vw, -25vh) rotate(360deg) scale(1.75, 1.75);
   }
   100% {
-    background-image: url(/images/Weapon_Everlasting_Moonglow.png);
+    background-image: url(/sucrose.github.io/Weapon_Everlasting_Moonglow.png);
   }
 }
 @keyframes colcg {
   0% {
-    background-image: url(/images/paimon.jpg);
+    background-image: url(/sucrose.github.io/paimon.jpg);
   }
   25% {
     background-color: rgb(248, 26, 211);
@@ -101,7 +101,7 @@ body {
   background-color: rgb(26, 219, 219);
 }
 .b1 {
-  background-image: url(/images/ayaka.jpg);
+  background-image: url(/sucrose.github.io/ayaka.jpg);
   background-size: contain;
   transition: transform 0.25s;
 }
@@ -109,7 +109,7 @@ body {
   transform: scale(1.25, 1.25);
 }
 .b2 {
-  background-image: url(/images/bennt.jpg);
+  background-image: url(/sucrose.github.io/bennt.jpg);
   background-size: contain;
   transition: transform 0.5s;
 }
@@ -117,14 +117,14 @@ body {
   transform: rotate(360deg);
 }
 .b3 {
-  background-image: url(/images/ganyu.jpg);
+  background-image: url(/sucrose.github.io/ganyu.jpg);
   background-size: contain;
 }
 .b3:hover {
   animation: rotation360 5s, infrot 100000s;
 }
 .b4 {
-  background-image: url(/images/childe.jpg);
+  background-image: url(/sucrose.github.io/childe.jpg);
   background-size: contain;
   transition: transform 0.5s;
 }
@@ -132,7 +132,7 @@ body {
   transform: rotate(360deg);
 }
 .b5 {
-  background-image: url(/images/kokomi.jpg);
+  background-image: url(/sucrose.github.io/kokomi.jpg);
   background-size: contain;
   transition: transform 0.25s;
 }
@@ -140,35 +140,35 @@ body {
   transform: scale(1.25, 1.25);
 }
 .b6 {
-  background-image: url(/images/kazuha.jpg);
+  background-image: url(/sucrose.github.io/kazuha.jpg);
   background-size: contain;
 }
 .b6:hover {
   animation: motion1 3s;
 }
 .b10 {
-  background-image: url(/images/raidon.jpg);
+  background-image: url(/sucrose.github.io/raidon.jpg);
   background-size: contain;
 }
 .b10:hover {
   animation: motion1 3s;
 }
 .b8 {
-  background-image: url(/images/sucrose.jpg);
+  background-image: url(/sucrose.github.io/sucrose.jpg);
   background-size: contain;
 }
 .b8:hover {
   animation: animation_father 5s 0s 2;
 }
 .b7 {
-  background-image: url(/images/venti.jpg);
+  background-image: url(/sucrose.github.io/venti.jpg);
   background-size: contain;
 }
 .b7:hover {
   animation: motion2 3s;
 }
 .b9 {
-  background-image: url(/images/hutao.jpg);
+  background-image: url(/sucrose.github.io/hutao.jpg);
   background-size: contain;
 }
 .b9:hover {
