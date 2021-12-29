@@ -1,0 +1,191 @@
+@keyframes rotation360 {
+  0% {
+    background-image: url(/images/ganyu.jpg);
+  }
+  25% {
+    background-image: url(/images/kazuha.jpg);
+    border: 12px dashed yellow;
+  }
+  50% {
+    background-image: url(/images/raidon.jpg);
+    border: 14px double orange;
+  }
+  75% {
+    transform: scale(1.75, 1.75) rotate(360deg);
+    background-image: url(/images/ayaka.jpg);
+    border: 16px double green;
+  }
+  95% {
+    border: 160px double rgb(253, 10, 10);
+  }
+}
+@keyframes motion1 {
+  0% {
+    transform: skewx(360deg);
+  }
+}
+@keyframes motion2 {
+  0% {
+    transform: skewy(360deg);
+  }
+}
+@keyframes animation_father {
+  0% {
+    background-image: url(/images/venti.jpg);
+  }
+  25% {
+    background-image: url(/images/hutao.jpg);
+  }
+  50% {
+    background-image: url(/images/ganyu.jpg);
+    transform: translate(25vw, -25vh) rotate(360deg) scale(1.75, 1.75);
+  }
+  75% {
+    background-image: url(/images/xiao2.jpg);
+    transform: translate(-40vw, -25vh) rotate(360deg) scale(1.75, 1.75);
+  }
+  100% {
+    background-image: url(/images/Weapon_Everlasting_Moonglow.png);
+  }
+}
+@keyframes colcg {
+  0% {
+    background-image: url(/images/paimon.jpg);
+  }
+  25% {
+    background-color: rgb(248, 26, 211);
+  }
+  75% {
+    background-color: rgb(26, 219, 219);
+  }
+  95% {
+    background-image: url(https://images.unsplash.com/photo-1640177155742-835de7b2a9a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDd8Ym84alFLVGFFMFl8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60);
+  }
+}
+.container5 {
+  height: 600px;
+  border: 4px solid blue;
+  display: grid;
+  grid-template-columns: 150px 150px 150px 150px 150px;
+  grid-column-gap: 50px;
+  justify-content: center;
+  grid-template-rows: 250px 250px;
+  align-content: center;
+  grid-row-gap: 50px;
+  text-align: center;
+  font-family: "Shizuru", cursive;
+  color: white;
+  text-transform: uppercase;
+}
+.container5:hover {
+  animation: colcg 5s;
+}
+.box {
+  width: 150px;
+  height: 250px;
+  border: 5px solid wheat;
+}
+body {
+  background-color: gray;
+}
+.imbx3 {
+  background-color: blueviolet;
+}
+.imbx4 {
+  background-color: rgb(248, 26, 211);
+}
+.imbx {
+  background-color: chartreuse;
+}
+.imbx2 {
+  background-color: rgb(26, 219, 219);
+}
+.b1 {
+  background-image: url(/images/ayaka.jpg);
+  background-size: contain;
+  transition: transform 0.25s;
+}
+.b1:hover {
+  transform: scale(1.25, 1.25);
+}
+.b2 {
+  background-image: url(/images/bennt.jpg);
+  background-size: contain;
+  transition: transform 0.5s;
+}
+.b2:hover {
+  transform: rotate(360deg);
+}
+.b3 {
+  background-image: url(/images/ganyu.jpg);
+  background-size: contain;
+}
+.b3:hover {
+  animation: rotation360 5s, infrot 100000s;
+}
+.b4 {
+  background-image: url(/images/childe.jpg);
+  background-size: contain;
+  transition: transform 0.5s;
+}
+.b4:hover {
+  transform: rotate(360deg);
+}
+.b5 {
+  background-image: url(/images/kokomi.jpg);
+  background-size: contain;
+  transition: transform 0.25s;
+}
+.b5:hover {
+  transform: scale(1.25, 1.25);
+}
+.b6 {
+  background-image: url(/images/kazuha.jpg);
+  background-size: contain;
+}
+.b6:hover {
+  animation: motion1 3s;
+}
+.b10 {
+  background-image: url(/images/raidon.jpg);
+  background-size: contain;
+}
+.b10:hover {
+  animation: motion1 3s;
+}
+.b8 {
+  background-image: url(/images/sucrose.jpg);
+  background-size: contain;
+}
+.b8:hover {
+  animation: animation_father 5s 0s 2;
+}
+.b7 {
+  background-image: url(/images/venti.jpg);
+  background-size: contain;
+}
+.b7:hover {
+  animation: motion2 3s;
+}
+.b9 {
+  background-image: url(/images/hutao.jpg);
+  background-size: contain;
+}
+.b9:hover {
+  animation: motion2 3s;
+}
+.bg_black {
+  background-color: black;
+  color: antiquewhite;
+}
+hr {
+  height: 4px;
+
+  background-color: rgb(20, 6, 6);
+}
+
+body {
+  background-color: black;
+}
+
+
